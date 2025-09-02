@@ -13,8 +13,8 @@ h1{
 .centro{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 15rem;
+    justify-items: center;
+    gap: 4rem;
 
 }
 p{
@@ -32,10 +32,11 @@ img{
 }
 .arriba{
    background: linear-gradient(to right, rgb(105, 224, 233), rgb(219, 71, 162)) ;
-   padding: 0;
+    width: 100%;
    display: flex;
    justify-content: center;
    align-content: center;
+   position: fixed;
 }
 .benito{
     width: 4500rem;
@@ -49,6 +50,7 @@ img{
 }
 h2{
     color: black;
+    margin-right: 10rem;
 }
 .imagen-zoom {
 
@@ -60,4 +62,23 @@ h2{
     }
 .bienvenida{
     font-size: 25px;
+    margin-top: 6rem;
+}
+.N1{
+    display: flex;
+
+}
+.pentro{
+    display: flex;
+    flex-direction: column;
+}
+.ayuda{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+pre{
+    color: black;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
